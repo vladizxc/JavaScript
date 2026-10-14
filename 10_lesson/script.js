@@ -39,3 +39,10 @@ const promptValue = prompt(`Какое значение записать в св
 const obj = {
     [promptName]: promptValue
 }
+
+console.log("name" in user)
+
+for (const key in user){
+    console.log("Ключ: ", key)
+    console.log("Значение: ", user[key])
+}
