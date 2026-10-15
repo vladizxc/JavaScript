@@ -15,3 +15,16 @@ user2.logInfo = logInfo
 
 user1.logInfo()
 user2.logInfo()
+
+const calculator = {
+    read() {
+        this.a = Number(prompt("Enter first number: ", 0))
+        this.b = Number(prompt("Enter second number: ", 0)) 
+    },
+    sum() {
+        return this.a + this.b
+    },
+    mul() {
+        return this.a * this.b
+    },
+}
