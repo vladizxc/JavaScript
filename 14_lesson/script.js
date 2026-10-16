@@ -28,3 +28,29 @@ message.startsWith("he")
 message.endsWith("lo", 2)
 
 message.substring(0, 2)
+
+message.repeat(3)
+
+message.replace("he", "He")
+message.replaceAll("he", "He")
+
+message.split("")
+
+let mes = "Hello!"
+
+mes = mes
+    .trim()
+    .toUpperCase()
+    .slice(0, 4)
+
+const value = prompt("Enter your name: ")
+
+const clearValue = value.trim().toLowerCase()
+
+if(clearValue.length === 0) {
+    alert("Error! Name cannot be empty")
+}
+
+if(clearValue.includes("admin")) {
+    alert("Error! Name cannot be admin")
+}
