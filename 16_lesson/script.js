@@ -66,3 +66,7 @@ const ageSum = users.reduce((sum, user) => {
     return sum + user.age
 }, 0)
 
+const reversedUsers = users.reverse()
+
+let sortedUsers = users.sort()
+sortedUsers = users.sort((a, b) => a-b)
