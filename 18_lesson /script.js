@@ -1,0 +1,16 @@
+const user = {
+    name: "alex",
+    age: 28,
+    city: "Moscow",
+    address: {
+        street: "Pushkin",
+        zipcode: 123456
+    },
+    todos: ["sleep", "eat", "work", "train", "learn"],
+    hasCat: true,
+    yacht: null
+}
+
+const userDataAsString = JSON.stringify(user)
+
+const parsedUserData = JSON.parse(userDataAsString)
