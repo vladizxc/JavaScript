@@ -1,7 +1,7 @@
 console.dir(document)
-console.dir(document.documentElement)
-console.dir(document.head)
-console.dir(document.body)
+console.log(document.documentElement)
+console.log(document.head)
+console.log(document.body)
 
 console.log(
     `Element <body>:`,
@@ -43,4 +43,39 @@ console.log(
 console.log(
     `Last Element Child in <div>:`,
     divElement.lastElementChild
+)
+
+console.log(`
+    previous element before <div>:`,
+    divElement.previousElementSibling
+)
+
+console.log(`
+    previous node before <div>:`,
+    divElement.previousSibling
+)
+
+console.log(`
+    next element after <div>:`,
+    divElement.nextElementSibling
+)
+
+console.log(`
+    next node after <div>:`,
+    divElement.nextSibling
+)
+
+console.log(`
+    first child node in <div>:`,
+    divElement.firstChild
+)
+
+console.log(`
+    last child node in <div>:`,
+    divElement.lastChild
+)
+
+console.log(
+    `children nodes in <div>:`,
+    divElement.childNodes
 )
