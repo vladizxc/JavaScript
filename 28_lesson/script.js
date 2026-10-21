@@ -44,4 +44,4 @@ boxElement.classList.toggle('red')
 boxElement.classList.contains('box')
 
 
-boxElement.style.setProperty('--border-color', 'blue', 'important')
+boxElement.style.setProperty('--border-color', 'blue', 'important') 
