@@ -69,4 +69,4 @@ class DragAndDrop {
     }
 }
 
-new DragAndDrop()
+new DragAndDrop() 
